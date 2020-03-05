@@ -126,3 +126,7 @@ STATIC_URL = '/static/'
 #media folders
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+#Django sessions configuration files for this app.
+
+CART_SESSION_ID = 'cart'
